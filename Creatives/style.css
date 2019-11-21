@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "Gotham Book"; 
+    src: url("fonts/Gotham-Book.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Medium"; 
+    src: url("fonts/Gotham-Medium.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Bold"; 
+    src: url("fonts/Gotham-Bold.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Regular"; 
+    src: url("fonts/Roboto-Regular.ttf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Myriad Pro"; 
+    src: url("fonts/Myriad-Pro.otf");
+    font-style: normal;
+}
+
+
+
+*{
+    font-size: 20px;
+}
+.header {
+    background:url("images/top-bg.png") no-repeat ;
+    background-size:cover ;
+}
+.navigation .nav-item.nav-link  {
+    font-family: "Myriad Pro",sans-serif;
+    color:#fff;
+}
+.navigation .nav-item.nav-link:last-child,
+.icons {
+    white-space: nowrap;
+}
+
+.icons i {
+    margin: 0 9px;
+    color:#fff;
+}
+
+.hr {
+    background-color: #7f7f7d;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 15vw;
+    margin-bottom: 0px;
+    color:#f5f5f5;
+    font-family: "Gotham Bold",sans-serif;
+    font-weight: bold;
+    font-size: 7.6rem;
+    text-transform: uppercase;
+    letter-spacing:-5px;
+}
+
+.subtitle {
+    font-size: 25px;
+    color:#11749e;
+    text-transform: uppercase;
+    font-family: "Gotham Medium",sans-serif;
+    letter-spacing: 19px;
+    margin-right: -10px;
+}
+
+.scroll_down {
+    margin-top: 7vw;
+    margin-bottom: 7.15vw;
+}
+.scroll_down a {
+    color:#fff;
+    text-decoration: none;
+}
+.scroll_down a:hover {
+    text-decoration: none;
+}
+.scroll {
+    width:65px;
+    height:65px;
+    border:1px solid #fff;
+    border-radius:50%;
+    line-height: 65px;
+    margin: 20px auto;
+}
+.scroll:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.agency {
+    background-color: #11749e;
+    position: relative;
+    padding-bottom: 6.5vw;
+}
+
+.agency .w,
+.about .c,
+.blog .b {
+    position: absolute;
+    margin: auto;
+    margin-top: 1vw;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color :#fff;
+    font-family: "Roboto Regular",sans-serif;
+    font-weight: 600;
+    font-size: 12.35rem;
+    opacity: 0.3;
+}
+
+.agency h2,
+.about h2,
+.blog h2 {
+
+    font-family: "Gotham Medium",sans-serif;
+    font-size: 1.85rem;
+}
+.agency h2,
+.about h2 {
+    color:#fff;
+}
+.agency h2 {
+    margin-top: 11.15vw;
+    margin-bottom: 9.4vw;
+}
+
+.circle {
+    width: 130px;
+    height:130px;
+    background-color: #2e85aa;
+    border-radius: 50%;
+    line-height: 130px;
+    margin: 0 auto;
+}
+p.title {
+    font-family: "Gotham Medium",sans-serif;
+    font-size: 18px;
+    color:#fff;
+}
+p.text {
+    font-family: "Gotham Book",sans-serif;
+    font-size: 15px;   
+    color:#fff;
+}
+
+.news-block {
+    padding-top: 5.4vw;
+}
+
+.date {
+    font-size: 13px;
+    font-family: "Gotham Book",sans-serif;
+}
+
+.news h3 {
+    font-size: 25px;
+    font-family: "Gotham Medium",sans-serif;
+    margin-top: 1vw;
+    margin-bottom: 2.8vw;
+}
+
+.news p {
+    font-size: 15px;
+    font-family: "Gotham Book",sans-serif;
+}
+
+.news .first {
+    margin-bottom: 2.25vw;
+}
+
+.about {
+    background: url("images/form-bg.png") no-repeat;
+    /* background-size: cover; */
+    position: relative;
+}
+
+.about h2 {
+    margin-top: 14.6vw;
+    margin-bottom: 9.9vw;
+}
+
+.about .c {
+    margin-top: 4vw;
+}
+
+.form__text,
+.form__textarea {
+    width: 100%;
+    background: none;
+    border:1px solid #fff ;
+    padding: 7px 10px;
+    margin-bottom: 2.8vw;
+    color:#fff;
+}
+
+.blog {
+    background-color : #fff;
+    position: relative;
+}
+
+.blog .b {
+    color:#e2e2e2;
+}
+
+.blog h2 {
+    color:#000;
+    margin-top: 10.7vw;
+    margin-bottom: 7.48vw;
+}
+
+.blog__subtitle {
+    font-family: "Gotham Book",sans-serif;
+    font-size: 30px;
+    margin-bottom: 5.2vw;
+}
+
+.card {
+    border:none;
+}
+
+h5.card-title {
+    font-family: "Gotham Medium",sans-serif;
+    font-size: 18px;
+    color:#11749e;
+}
+
+p.card-text {
+    font-size: 15px;
+    font-family: "Gotham Book",sans-serif;
+}
+
+.footer {
+
+    background-color: #222222;
+}
+.footer .row{    height:115px;}
+
+.footer span {
+    font-family:"Roboto Regular", sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .nav-item.nav-link:hover {
+        border-bottom: 2px solid #11749e;
+        padding-bottom: 28px!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   h1 {
+    font-size: 5rem; 
+    letter-spacing:0px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+     font-size: 4rem; 
+     letter-spacing:0px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+
+ }
+
+ @media screen and (max-width: 576px) {
+    .agency .w {
+        margin-top: -15vw;
+    }
+    .about .c {
+        margin-top: -10vw;
+    }
+    h1 {
+        font-size: 2.8rem; 
+        letter-spacing:0px;
+       }
+       .subtitle {
+           font-size: 14px;
+           letter-spacing: 14px;
+       }
+       .icons i {
+        margin: 0 5px;
+        }
+ }
